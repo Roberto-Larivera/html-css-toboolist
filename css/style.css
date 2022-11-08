@@ -49,6 +49,8 @@ body{
 
 /* UNICODE */
 
+/* UNICODE GENERICO */
+
 .unicode-freccia::before{
     content: '\25BC';
 }
@@ -61,6 +63,8 @@ body{
     text-align: center;
     
 }
+
+/* UNICODE LISTA */
 .unicode-checkgreen::before{
     content: '\2713';
     color: green;
@@ -68,4 +72,39 @@ body{
 .unicode-checkred::before{
     content: '\2717';
     color: red;
+}
+
+/* TAG  */
+
+/* TAG GENERICO */
+.tag-design::after{
+    font-size: 0.8em;
+    color: white;  
+    border-radius: 10%;
+    padding: 5px;
+}
+/* TAG LISTA */
+.tag-editorial::after{
+    content:'Editorial';
+    background-color: #45abea;
+}
+.tag-q1::after{
+    content:'Q1 Goals';
+    background-color: #9c72e4;
+}
+.tag-recruiting::after{
+    content:'Recruiting';
+    background-color: #64c0a9;
+}
+.tag-mobile::after{
+    content:'Mobile';
+    background-color: #f29e33;
+}
+.tag-website::after{
+    content:'Website';
+    background-color: #d863a1;
+}
+.tag-sales::after{
+    content:'Sales';
+    background-color: #b0c926;
 }
