@@ -1,0 +1,24 @@
+/* RESET PRINCIPALE */
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* BODY */
+body{
+    background-color: #e5f1f8;
+}
+/* HEADER BODY */
+.header-body{
+    height: 70px;
+    background-color: white;
+    
+}
+#logo-header{
+    vertical-align: middle;
+    padding-left: 1%;
+    padding-top: 0.5%;
+}
+#nome-header{
+    vertical-align: middle;
+}
