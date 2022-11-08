@@ -34,7 +34,21 @@ body{
     margin: 50px auto;
 }
 
+.container-2{
+    /* width: 80%;
+    height: 50px;
+    background-color: white;
+    margin: 50px auto; */
+}
+
+/* BUTTON  */
 .button-header{
     margin-top: 15px;
     margin-left: 15px;
+}
+
+/* UNICODE */
+
+.unicode-freccia::before{
+    content: '\25BC';
 }
