@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 /* BODY */
 body{
-    background-color: #e5f1f8;
+    background-color: #edf3f6;
     font-family: 'Roboto', sans-serif;
 }
 /* HEADER BODY */
@@ -31,14 +31,17 @@ body{
     width: 80%;
     height: 50px;
     background-color: white;
-    margin: 50px auto;
-}
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px 5px 0 0;
+}   
 
 .container-2{
     width: 80%;
     background-color: white;
-    margin: 50px auto;
+    margin: 5px auto;
     padding: 1%;
+    border-radius: 0 0 5px 5px;
 }
 
 /* BUTTON  */
@@ -46,17 +49,26 @@ body{
     margin-top: 15px;
     margin-left: 15px;
 }
-
+.button-blue{
+    background-color: #45abea;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 5px;
+}
+.button-white
 /* LISTA GENERICO */
 ul {
     list-style-type: none;
 }
-.font-list2{
-    font-weight: 500;
-}
+
 .text-list{
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 30px;
+    color: #444851;
+}
+.h2-list{
+    margin-bottom: 10px;
 }
 
 /* UNICODE */
@@ -65,6 +77,7 @@ ul {
 
 .unicode-freccia::before{
     content: '\25BC';
+    font-size: 0.6em;
 }
 .unicode-cerchio::before{
     display: inline-block;
@@ -74,6 +87,7 @@ ul {
     height: 1.5em;
     text-align: center;
     font-size: 0.9em;
+    margin-right: 10px;
     
 }
 
@@ -93,7 +107,7 @@ ul {
 .tag-design::after{
     font-size: 0.6em;
     color: white;  
-    border-radius: 10%;
+    border-radius: 8px;
     padding: 5px;
 }
 /* TAG LISTA */
