@@ -25,3 +25,16 @@ body{
     font-weight: 900;
     display: inline-block;
 }
+
+/* CONTAINER */
+.container{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.button-header{
+    margin-top: 15px;
+    margin-left: 15px;
+}
