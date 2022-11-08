@@ -43,7 +43,9 @@ body{
     padding: 1%;
     border-radius: 0 0 5px 5px;
 }
-
+ .all-margin{
+    padding-left: 2%;
+ }
 /* BUTTON  */
 .button-header{
     margin-top: 15px;
@@ -56,12 +58,20 @@ body{
     border-radius: 8px;
     padding: 5px;
 }
-.button-white
+.button-white{
+    border:  solid #aeb4b8 ;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    color: #aeb4b8 ;
+}
 /* LISTA GENERICO */
 ul {
     list-style-type: none;
 }
-
+li{
+    margin-top: 10px;
+}
 .text-list{
     font-weight: 400;
     margin-bottom: 30px;
@@ -86,8 +96,8 @@ ul {
     width: 1.5em;
     height: 1.5em;
     text-align: center;
-    font-size: 0.9em;
-    margin-right: 10px;
+    font-size: 0.7em;
+    margin-right: 7px;
     
 }
 
