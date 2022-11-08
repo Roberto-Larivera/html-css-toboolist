@@ -52,3 +52,20 @@ body{
 .unicode-freccia::before{
     content: '\25BC';
 }
+.unicode-cerchio::before{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    
+}
+.unicode-checkgreen::before{
+    content: '\2713';
+    color: green;
+}
+.unicode-checkred::before{
+    content: '\2717';
+    color: red;
+}
