@@ -7,6 +7,7 @@ box-sizing: border-box;
 /* BODY */
 body{
     background-color: #e5f1f8;
+    font-family: 'Roboto', sans-serif;
 }
 /* HEADER BODY */
 .header-body{
@@ -21,4 +22,6 @@ body{
 }
 #nome-header{
     vertical-align: middle;
+    font-weight: 900;
+    display: inline-block;
 }
