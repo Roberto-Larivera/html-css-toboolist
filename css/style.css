@@ -6,19 +6,17 @@ box-sizing: border-box;
 }
 /* BODY */
 body{
-    background-color: #edf3f6;
+    background-color: #f6f8f9;
     font-family: 'Roboto', sans-serif;
 }
 /* HEADER BODY */
 .header-body{
-    height: 70px;
     background-color: white;
+    padding: 10px;
     
 }
 #logo-header{
     vertical-align: middle;
-    padding-left: 1%;
-    padding-top: 0.5%;
 }
 #nome-header{
     vertical-align: middle;
@@ -39,7 +37,7 @@ body{
 .container-2{
     width: 80%;
     background-color: white;
-    margin: 5px auto;
+    margin: 2px auto;
     padding: 1%;
     border-radius: 0 0 5px 5px;
 }
@@ -54,7 +52,7 @@ body{
 .button-blue{
     background-color: #45abea;
     color: white;
-    border: 0;
+    border: solid #45abea;
     border-radius: 8px;
     padding: 5px;
 }
